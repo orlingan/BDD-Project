@@ -63,13 +63,3 @@ insert into archeologie(cle, nom_musée, lieu_musée, ancien_nom_ville, nouveau_
 
 										
 select * from archeologie;
-select distinct nom_musée from archeologie where lieu_musée ='Paris' and civilisation = 'Egyptien' ;
-
-select distinct nom_musée, count(nom_objet) from archeologie group by nom_musée;
-
-select count(nom_musée) from archeologie where nom_musée != '';  -- nombre de musée
-
-select distinct nom_objet from archeologie where exists
-               (select nom_musée from archeologie where nom_musée != '');
-
-select * from archeologie where année_datation<=1000 order by année_datation;
