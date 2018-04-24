@@ -50,10 +50,10 @@ insert into archeologie(cle, nom_musée, lieu_musée, ancien_nom_ville, nouveau_
 	nom_objet, année_datation, site_découverte, site_archeo, civilisation, lieu_site) values(16,'Louvre','Paris','','','La Stèle de victoire du roi Naram-Sin',-2224,'Acropole de Suse','','Akkadien','');	
 	
 insert into archeologie(cle, nom_musée, lieu_musée, ancien_nom_ville, nouveau_nom_ville, 
-	nom_objet, année_datation, site_découverte, site_archeo, civilisation, lieu_site) values(17,'','','','','','','','','','');	
+	nom_objet, année_datation, site_découverte, site_archeo, civilisation, lieu_site) values(17,'','','','','Angkor','900','Angkor','','khmer','');	
 
 insert into archeologie(cle, nom_musée, lieu_musée, ancien_nom_ville, nouveau_nom_ville, 
-	nom_objet, année_datation, site_découverte, site_archeo, civilisation, lieu_site) values(18,'','','','','','','','','','');
+	nom_objet, année_datation, site_découverte, site_archeo, civilisation, lieu_site) values(18,'','','','','Grottes de Mogao','400','','','','');
 
 insert into archeologie(cle, nom_musée, lieu_musée, ancien_nom_ville, nouveau_nom_ville, 
 	nom_objet, année_datation, site_découverte, site_archeo, civilisation, lieu_site) values(19,'','','','','','','','','','');	
